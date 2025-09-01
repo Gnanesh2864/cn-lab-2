@@ -1,0 +1,3 @@
+INFO:root:A Record (IP Address) for example.com: 23.215.0.136
+INFO:root:MX Record: . (priority 0)
+ERROR:root:Failed to resolve CNAME records: The DNS response does not contain an answer to the question: example.com. IN CNAME
