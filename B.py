@@ -7,7 +7,7 @@ logging.basicConfig(filename="smtp_log.txt", level=logging.INFO)
 smtp_server = "smtp.gmail.com"
 port = 587
 sender_email = "devratharaisersalaar@gmail.com"
-password = "qhkoqbyorzqdavbz"   # <-- use App Password here
+password = "***********"
 receiver_email = "koushik_2301me25@iitp.ac.in"
 for i in range(50):
     try:
@@ -30,3 +30,4 @@ for i in range(50):
     except Exception as e:
         logging.error(f"SMTP error: {e}")
         print("❌ Error:", e)
+
